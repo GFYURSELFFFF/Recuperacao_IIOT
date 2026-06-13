@@ -1,0 +1,8 @@
+-- CreateTable
+CREATE TABLE "Equipment" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "nome" TEXT NOT NULL,
+    "descricao" TEXT NOT NULL,
+    "ativo" BOOLEAN NOT NULL,
+    "dataInclusao" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
