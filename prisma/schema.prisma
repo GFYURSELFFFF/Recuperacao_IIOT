@@ -12,9 +12,9 @@ datasource db {
 }
 
 model Equipment {
-  id            Int    @id @default(autoincrement())
+  id            Int        @id @default(autoincrement())
   nome          String
   descricao     String
   ativo         Boolean
-  dataInclusao  DateTime @default(now())
+  dataInclusao  DateTime   @default(now())
 }
